@@ -4,7 +4,7 @@ In Asymptotic Analysis, to evaluate the performance of an  algorithm (do not mea
 
 `Asymptotic Notation` is a way to describe the running time or space complexity of an algorithm based on the input size. There are three commonly used notations: BigO ($O$), Omega ($\Omega$), Theta ($\Theta$).
 
-## Big O notation ($O$)
+## Big O notation $(O)$
 
 Let $f(n)$ and $g(n)$ be functions mapping positive integers to positive real numbers. We say that $f(n)$ is $O(g(n))$ if there is a real constant $c$ > 0 and integer constant $n_0 >= 1$ such that 
 $$f(n) <= c. g(n), \forall n >= n_0$$
