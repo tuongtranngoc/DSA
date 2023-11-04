@@ -23,12 +23,14 @@ jobs:
         uses: actions/checkout@v3
       - name: Modify date and time
         run: |
-          date > README.md
+          now=$(date)
+          echo "Let's start coding $now"
           cat README.md
       - name: Push to repository
         run: |
           git config --global user.name "Tuong Tran"
           git config --global user.email "tuongtranngoc@gmail.com"
+          git pull
           now=$(date)
           git add -A
           git commit -m "Auto Push on $now"
