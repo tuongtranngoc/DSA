@@ -24,7 +24,7 @@ jobs:
       - name: Modify date and time
         run: |
           now=$(date)
-          echo "Let's start coding $now" > README.md
+          echo "Let's start coding - $now" > README.md
           cat README.md
       - name: Push to repository
         run: |
