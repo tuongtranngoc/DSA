@@ -27,8 +27,18 @@ Let $f(n)$ and $g(n)$ be functions mapping positive integers to positive real nu
 $$f(n) >= cg(n), \forall n>=n_0$$
 
 
-## Big-Theta notaion
+## Big-Theta notation
 
-Let $f(n)$ and $g(n)$ be functions mapping positive integers to positive real numers. We say that $f(n)$ is $\Theta(g(n))$ if $f(n)$ is $O(g(n))$ and $f(n)$ is $\Omega(g(n))$ that is, there is a real constants $c'>0$, and an integer constant $n_0>=1$ such that
+Let $f(n)$ and $g(n)$ be functions mapping positive integers to positive real numers. We say that $f(n)$ is $\Theta(g(n))$ if $f(n)$ is $O(g(n))$ and $f(n)$ is $\Omega(g(n))$ that is, there is a real constants $c'>0, c'' > 0$, and an integer constant $n_0>=1$ such that
 
 $$c'g(n) <= f(n) <= c''g(n), \forall n>=n_0$$
+
+## Some classes of functions
++ $O(1)$: constant
++ $O(log \space n)$: logarithmic
++ $O(n)$: linear
++ $O(n \space log \space n)$: superlinear
++ $O(n^2)$: quadratic
++ $O(n^3)$: cubic
++ $O(n^k)$: polynomial $k>=1$
++ $O(a^n)$: exponential $a >1$
