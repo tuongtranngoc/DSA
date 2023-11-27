@@ -5,7 +5,7 @@ In Asymptotic Analysis, to evaluate the performance of an algorithm (do not meas
 `Asymptotic Notation` is a way to describe the running time or space complexity of an algorithm based on the input size. There are three commonly used notations: Big-O ($O$), Big-Omega ($\Omega$), Big-Theta ($\Theta$).
 
 <p>
-    <image src="../../images/asymptotic.png">
+    <image src="/images/Algorithmic-complexity-BigO-Asymptotic-Analysis/asymptotic.png">
 </p>
 
 ## Big-O notation

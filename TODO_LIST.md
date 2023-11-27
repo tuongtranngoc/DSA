@@ -1,6 +1,6 @@
 # Topic of Study
 
-+ Algorithmic complexity / Big-O / Asymptotic analysis
++ <del>Algorithmic complexity / Big-O / Asymptotic analysis
 + Data Structure
   + Arrays
   + Linked Lists
