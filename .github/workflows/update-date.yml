@@ -1,5 +1,4 @@
-name: GitHub Self-Updating Repository Demo
-
+name: Let-us-start-coding
 on:
   # https://docs.github.com/en/actions/using-workflows/events-that-trigger-workflows#schedule
   schedule:
@@ -10,7 +9,8 @@ on:
     # Every 5 minutes.
     # - cron: '*/5 * * * *'
     # At the beginning of every day.
-    - cron: "0 0 * * *"
+    - cron: "0 5 * * *"
+    - timezone: 'Asia/Ho_Chi_Minh'
 
 # on: [push]
 
@@ -24,11 +24,11 @@ jobs:
       - name: Modify date and time
         run: |
           now=$(date)
-          echo "Let's start coding - $now" > README.md
+          echo "$now - Let's start coding: Array" > README.md
           cat README.md
       - name: Push to repository
         run: |
-          git config --global user.name "Tuong Tran"
+          git config --global user.name "tuongtranngoc"
           git config --global user.email "tuongtranngoc@gmail.com"
           git pull
           now=$(date)
