@@ -1,10 +1,9 @@
 
-<head>
-    <style>
-        figure{text-align: center;}
-        math{text-align: center;}
-    </style>
-</head>
+
+<style>
+    figure{text-align: center;}
+    math{text-align: center;}
+</style>
 
 
 # Array-Based Sequence
