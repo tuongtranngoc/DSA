@@ -25,11 +25,28 @@ A programmer can envision a more typical high-level abstraction of an array of c
     <img src="/images/Array/high-level-store.png">
 </p>
 
+## Referential Arrays
 
+Python represents a list or tuple instance using an internal storage mechanism of an array of object `references`. Although the relative size of the individual elements may vary, the number of bits used to store the memory address of each is fixed. In this way, Python can support constant-time access to a list or tuple elements based on its index.
 
+## Dynamic Array
+Although a list has a particular length when constructed, the list class allows us to add to the list without an apparent limit on the overall capacity of the list. Python uses an algorithmic sleight of hand known as a `dynamic array`.
 
+Algorithm:
+1. Allocate a new array B with a larger capacity.
+2. Set $B[i] = A[i], \forall i=0, ..., n-1$, where $n$ denotes current number of items.
+3. Set $A=B$, that is, we use $B$ as the array supporting the list.
+4. Insert the new element in a new array.
 
+<p align="center">
+    <img src="/images/Array/dymamic_array.png">
+</p>
 
+## Asymptotic Analysis
 
+Asymptotic of performance the **list** class:
 
+<p align="center">
+    <img src="/images/Array/Asymptotic_list.png">
+</p>
 
