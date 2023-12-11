@@ -42,3 +42,5 @@ $$c'g(n) <= f(n) <= c''g(n), \forall n>=n_0$$
 + $O(n^3)$: cubic
 + $O(n^k)$: polynomial $k>=1$
 + $O(a^n)$: exponential $a >1$
+
+## Excercise
