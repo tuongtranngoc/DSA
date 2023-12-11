@@ -39,7 +39,7 @@ Algorithm:
 4. Insert the new element in a new array.
 
 <p align="center">
-    <img src="/images/Array/dymamic_array.png">
+    <img src="/images/Array/dynamic_array.png">
 </p>
 
 ## Asymptotic Analysis
