@@ -2,7 +2,7 @@
 
 + <del>Algorithmic complexity / Big-O / Asymptotic analysis
 + Data Structure
-  + Arrays
+  + <del>Arrays
   + Linked Lists
   + Stack
   + Queue
