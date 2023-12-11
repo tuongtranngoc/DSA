@@ -9,7 +9,7 @@ on:
     # Every 5 minutes.
     # - cron: '*/5 * * * *'
     # At the beginning of every day.
-    - cron: "0 5 * * *"
+    - cron: "0 0 * * *"
 
 # on: [push]
 
@@ -23,7 +23,7 @@ jobs:
       - name: Modify date and time
         run: |
           now=$(date)
-          echo "$now - TODO: Data Structure and Algorithm - Array, Paper with coding - CRNN" > README.md
+          echo "$now - TODO: Data Structure and Algorithm - Array, Paper with coding - DB Text detection" > README.md
           cat README.md
       - name: Push to repository
         run: |
