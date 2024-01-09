@@ -23,8 +23,9 @@ jobs:
       - name: Modify date and time
         run: |
           now=$(date)
-          echo "$now - TODO: Data Structure and Algorithm - Array, Paper with coding - DB Text detection" > README.md
+          echo "$now - TODO: Data Structure and Algorithm" > README.md
           cat README.md
+      - name: 
       - name: Push to repository
         run: |
           git config --global user.name "tuongtranngoc"
