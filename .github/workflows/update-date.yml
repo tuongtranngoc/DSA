@@ -25,7 +25,6 @@ jobs:
           now=$(date)
           echo "$now - TODO: Data Structure and Algorithm" > README.md
           cat README.md
-      - name: 
       - name: Push to repository
         run: |
           git config --global user.name "tuongtranngoc"
