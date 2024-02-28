@@ -3,8 +3,8 @@
 ## Introduction :
 - [x] Introduction to Binary Tree – Data Structure and Algorithm Tutorials
 - [x] Properties of Binary Tree
-- [ ] Types of Binary Tree
-- [ ] Applications, Advantages and Disadvantages of Binary Tree
+- [x] Types of Binary Tree
+- [x] Applications, Advantages and Disadvantages of Binary Tree
 - [ ] Binary Tree (Array implementation)
 - [ ] Complete Binary Tree
 - [ ] Perfect Binary Tree
