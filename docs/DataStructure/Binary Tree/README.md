@@ -5,12 +5,12 @@
 - [x] Properties of Binary Tree
 - [x] Types of Binary Tree
 - [x] Applications, Advantages and Disadvantages of Binary Tree
-- [ ] Binary Tree (Array implementation)
+- [x] Binary Tree (Array implementation)
 - [ ] Complete Binary Tree
 - [ ] Perfect Binary Tree
 
 ## Basic Operations on Binary Tree:
-- [ ] Tree Traversals (Inorder, Preorder and Postorder)
+- [x] Tree Traversals (Inorder, Preorder and Postorder)
 - [ ] Level Order Tree Traversal
 - [ ] Find the Maximum Depth or Height of the given Binary Tree
 - [ ] Insertion in a Binary Tree
