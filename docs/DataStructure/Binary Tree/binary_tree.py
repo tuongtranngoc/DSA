@@ -1,35 +1,48 @@
-# Implementation of binary tree using array - Python
-
-binary_tree = [None] * 100
-
-def root_tree(value):
-    if binary_tree[0] is None:
-        binary_tree[0] = value
-    else:
-        print('Binary tree already had value of root')
+from __future__ import division
+from __future__ import print_function
+from __future__ import absolute_import
 
 
-def set_left_node(parent, value):
-    if binary_tree[parent] is not None:
-        binary_tree[2*parent + 1] = value
-    else:
-        print('Node is not exist, can not set left value of node')
+class BSTree:
+    def __init__(self, value, left=None, right=None) -> None:
+        self.value = value
+        self.left = left
+        self.right = right
 
 
-def set_right_node(parent, value):
-    if binary_tree[parent] is not None:
-        binary_tree[2*parent+2] = value
-    else:
-        print('Node is not exist, can not set right value of node')
+def traversal_inorder(bst: BSTree):
+    if bst:
+        traversal_inorder(bst.left)
+        print(bst.value, end='-')
+        traversal_inorder(bst.right)
 
 
-def visualize_binary_tree():
-    """
-         A(0)    
-        /   \
-        B(1)  C(2)  
-    /   \      \
-    D(3)  E(4)   F(6) 
-    
-    """
+def traversal_preorder(bst: BSTree):
+    if bst:
+        print(bst.value, end='-')
+        traversal_preorder(bst.left)
+        traversal_preorder(bst.right)
 
+
+def traversal_postorder(bst: BSTree):
+    if bst:
+        traversal_postorder(bst.left)
+        traversal_postorder(bst.right)
+        print(bst.value, end='-')
+
+
+bst = BSTree('A')
+bst.left = BSTree('B')
+bst.right = BSTree('C')
+
+bst.left.left = BSTree('D')
+bst.left.right = BSTree('E')
+
+bst.left.left.left = BSTree('F')
+
+traversal_inorder(bst)
+print()
+traversal_preorder(bst)
+print()
+traversal_postorder(bst)
+print()
