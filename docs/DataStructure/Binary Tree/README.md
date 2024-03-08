@@ -11,8 +11,8 @@
 
 ## Basic Operations on Binary Tree:
 - [x] Tree Traversals (Inorder, Preorder and Postorder)
-- [ ] Level Order Tree Traversal
-- [ ] Find the Maximum Depth or Height of the given Binary Tree
+- [x] Level Order Tree Traversal
+- [x] Find the Maximum Depth or Height of the given Binary Tree
 - [ ] Insertion in a Binary Tree
 - [ ] Deletion in a Binary Tree
 - [ ] Enumeration of Binary Trees
