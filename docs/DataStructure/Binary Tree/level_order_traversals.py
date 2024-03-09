@@ -31,11 +31,11 @@ def level_traversal(node, level):
 
 def naive_traversal(tree: BSTree):
     """
-        Time complexity: O(N) - N is the number of nodes in the tree
-        Auxiliary Space: O(1)
+    Time complexity: O(N) - N is the number of nodes in the tree
+    Auxiliary Space: O(1)
     """
     if tree is None:
-        return None
+        return 
 
     height = find_height_tree(tree)
     for level in range(1, height+1):
@@ -45,6 +45,10 @@ def naive_traversal(tree: BSTree):
 
 
 def queue_traversal(tree:BSTree):
+    """
+    Time complexity: O(N)
+    Auxiliary Space: O(N)
+    """
     if tree is None:
         return None
     

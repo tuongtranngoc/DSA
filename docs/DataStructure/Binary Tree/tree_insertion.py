@@ -56,8 +56,14 @@ bst.left.left.left = BSTree('F')
 bst.right.left = BSTree('G')
 bst.right.right = BSTree('H')
 
+bst.right.right.right = BSTree('I')
+
 printTree(bst)
 print()
+levelorder_insert(bst, 'inserted')
+printTree(bst)
+print()
+
 levelorder_insert(bst, 'inserted')
 printTree(bst)
 print()
