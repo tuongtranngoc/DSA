@@ -17,7 +17,7 @@ class Node:
         self.data = data
 
     
-class Begin_DLL:
+class DLL_insertion:
     """Add a node at begin of the list
     Time Complexity: O(1)
     Auxiliary Space: O(1)
