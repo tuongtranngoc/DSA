@@ -2,7 +2,7 @@
 
 ## Introduction:
 - [x] What is Linked List
-- [ ] Introduction to Linked List – Data Structure and Algorithm Tutorials
+- [x] Introduction to Linked List – Data Structure and Algorithm Tutorials
 - [ ] Applications, Advantages and Disadvantages of Linked List
 - [ ] Linked List vs Array
 ## Types of Linked List
