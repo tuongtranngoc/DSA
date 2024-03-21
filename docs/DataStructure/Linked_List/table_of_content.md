@@ -3,11 +3,11 @@
 ## Introduction:
 - [x] What is Linked List
 - [x] Introduction to Linked List – Data Structure and Algorithm Tutorials
-- [ ] Applications, Advantages and Disadvantages of Linked List
-- [ ] Linked List vs Array
+- [x] Applications, Advantages and Disadvantages of Linked List
+- [x] Linked List vs Array
 ## Types of Linked List
-- [ ] Singly Linked List
-- [ ] Doubly Linked List
+- [x] Singly Linked List
+- [x] Doubly Linked List
 - [ ] Circular Linked List
 - [ ] Circular Doubly Linked List
 - [ ] Header Linked List
