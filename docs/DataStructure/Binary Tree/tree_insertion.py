@@ -10,6 +10,11 @@ class BSTree:
         self.right = right
 
 
+def check_empty(tree):
+    if tree is None:
+        pass
+
+
 def levelorder_insert(tree, value):
     if tree is None:
         tree = BSTree(value)
@@ -26,14 +31,15 @@ def levelorder_insert(tree, value):
                 tree.left = BSTree(value)
                 break
             else:
+                import ipdb; ipdb.set_trace();
                 queue_tree.append(tree.left)
 
             if tree.right is None:
                 tree.right = BSTree(value)
                 break
             else:
-                queue_tree.append(tree.right)
-
+                queue_tree.append(tree.right) 
+        import ipdb; ipdb.set_trace();
 
 def printTree(tree):
     if tree is None:
@@ -60,10 +66,6 @@ bst.right.right.right = BSTree('I')
 
 printTree(bst)
 print()
-levelorder_insert(bst, 'inserted')
-printTree(bst)
-print()
-
 levelorder_insert(bst, 'inserted')
 printTree(bst)
 print()
