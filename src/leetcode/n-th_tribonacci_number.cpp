@@ -1,3 +1,6 @@
+// Problem: https://leetcode.com/problems/n-th-tribonacci-number/?envType=daily-question&envId=2024-04-24
+// Author: tuongtrangoc
+
 #include <iostream>
 
 using namespace std;
