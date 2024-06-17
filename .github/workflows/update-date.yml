@@ -28,7 +28,7 @@ jobs:
       - name: Push to repository
         run: |
           git config --global user.name "tuongtranngoc"
-          git config --global user.email "tuongtranngoc@gmail.com"
+          git config --global user.email "tuongtrangoc@gmail.com"
           git pull
           now=$(date)
           git add -A
