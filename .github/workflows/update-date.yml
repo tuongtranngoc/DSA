@@ -9,13 +9,14 @@ on:
     # Every 5 minutes.
     # - cron: '*/5 * * * *'
     # At the beginning of every day.
-    - cron: "0 0 * * *"
+    # - cron: "0 0 * * *"
 
 # on: [push]
 
 jobs:
   report:
     runs-on: ubuntu-latest
+    if: false
     steps:
       - name: Check out repository code
         # https://github.com/actions/checkout/tree/v3.0.2
